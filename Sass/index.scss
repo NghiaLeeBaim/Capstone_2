@@ -1,0 +1,51 @@
+@use "./base/component.scss";
+
+@use "./base/base.scss";
+
+.header {
+  background:rgb(0, 0, 0);
+  align-items: center;
+  height: 70px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    .logo {
+      img {
+        width: 150px;
+      }
+    }
+    .nav {
+      a {
+        text-decoration: none;
+        color: white;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+.poster-carousel{
+  background-color: black;
+  height: 740px;
+  margin-top: 0px;
+  .container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    .image-carousel{
+      width: 50%;
+      img{
+
+      }
+    }
+    .content-carousel{
+      width: 50%;
+      h1{
+
+      }
+      p{
+
+      }
+    }
+  }
+}

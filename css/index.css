@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Averta", Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  background: rgb(0, 0, 0);
+  align-items: center;
+  height: 70px;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+.header .container .logo img {
+  width: 150px;
+}
+.header .container .nav a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+
+.poster-carousel {
+  background-color: black;
+  height: 740px;
+  margin-top: 0px;
+}
+.poster-carousel .container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.poster-carousel .container .image-carousel {
+  width: 50%;
+}
+.poster-carousel .container .content-carousel {
+  width: 50%;
+}
